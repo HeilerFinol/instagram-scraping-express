@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start":"node server.js",
-     "build":"npm run vercel-build"
+     "build":"npm run vercel-build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
