@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start":"node server.js",
-     "build":"npm run vercel-build",
+      "build": "rimraf dist && tsc",
+    "deploy": "npm run build && vercel --prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
